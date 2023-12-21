@@ -18,3 +18,6 @@ payoff_matrix = [
 # Calculate years for each prisoner
 prisoners[1]["years"] = payoff_matrix[prisoners[1]["strategy"]+1][prisoners[2]["strategy"]+1][1]
 prisoners[2]["years"] = payoff_matrix[prisoners[1]["strategy"]+1][prisoners[2]["strategy"]+1][2]
+
+println("Prisoner 1: $(prisoners[1])")
+println("Prisoner 2: $(prisoners[2])")
